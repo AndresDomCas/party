@@ -160,6 +160,9 @@ body {
     -webkit-animation: fadeIn 0.7s ease-in forwards;
     animation: fadeIn 0.7s ease-in forwards;
     font-size: 16px;
+
+    align-content: center;
+    align-items: center;
 }
 
 .medium span {
@@ -351,4 +354,18 @@ body {
         right: 0;
         border-width: 10px 10px 0 0;
     }
+}
+
+
+.button {
+    width: 115px;
+    height: 25px;
+    background: #E2B98B;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: #13141D;
+    font-weight: bold;
+    line-height: 20px;
+    text-decoration:none
 }
